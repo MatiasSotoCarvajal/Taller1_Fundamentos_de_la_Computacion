@@ -1,2 +1,2 @@
-SELECT name from personas whERE id < 4
+SELECT name from _personas whERE id < 4
 DELETE FROM personas WHEre edad < 85
