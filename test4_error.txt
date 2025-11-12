@@ -1,0 +1,10 @@
+-- String sin cerrar correctamente
+SELECT nombre FROM tabla WHERE descripcion = 'texto sin cerrar;
+
+-- Caracteres especiales invalidos
+SELECT @ nombre FROM usuarios WHERE edad >= 18;
+
+SELECT id, #codigo FROM productos;
+
+-- Numero decimal mal formado
+UPDATE precios WHERE valor = 123.;

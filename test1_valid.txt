@@ -1,0 +1,8 @@
+-- Consulta simple de seleccion
+SELECT nombre, edad FROM estudiantes WHERE edad >= 18;
+
+-- Insercion de datos
+INSERT nombre, apellido FROM alumnos;
+
+-- Actualizacion con condiciones
+UPDATE productos WHERE categoria = 'electronica' AND stock > 0;

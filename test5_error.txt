@@ -1,0 +1,10 @@
+-- Identificador que empieza con numero (invalido)
+SELECT 123nombre, apellido FROM tabla1;
+
+-- Caracteres no permitidos
+DELETE FROM tabla$ WHERE id = 1;
+
+-- Uso de caracteres extraños
+UPDATE tabla WHERE id & 5;
+
+SELECT nombre FROM usuarios WHERE email % activo;

@@ -1,0 +1,9 @@
+-- Combinacion de operadores logicos
+SELECT id_usuario, nombre FROM usuarios WHERE activo = 1 AND NOT suspendido;
+
+UPDATE configuracion WHERE valor = 'habilitado';
+
+DELETE FROM logs WHERE nivel = 'debug' OR nivel = 'info';
+
+-- Uso de decimales
+SELECT precio FROM productos WHERE precio >= 99.99;

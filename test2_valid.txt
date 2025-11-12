@@ -1,0 +1,6 @@
+SELECT id FROM clientes WHERE nombre = "Maria" OR edad < 25;
+
+DELETE FROM pedidos WHERE fecha <= "2023-01-01";
+
+-- Multiples condiciones
+SELECT producto_id, precio FROM inventario WHERE precio > 100 AND precio < 500;
