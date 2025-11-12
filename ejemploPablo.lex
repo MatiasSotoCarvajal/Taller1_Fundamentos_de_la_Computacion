@@ -101,7 +101,7 @@ int main(int argc, char **argv) {
         yylex();
         fclose(file);
     } else {
-        printf("Modo interactivo (Control + C, Ctrl+D o Ctrl+Z para terminar)\n");
+        printf("Modo interactivo (Ctrl+C, Ctrl+D o Ctrl+Z para terminar)\n");
         printf("Ingrese comandos SQL:\n\n");
         yylex();
     }
