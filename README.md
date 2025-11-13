@@ -31,7 +31,7 @@ Abre la carpeta contenedora.
 ```
 Generar archivo C.
 ```bash
-  flex ejemploPablo.lex
+  flex CodigoEjecutable.lex
 ```
 Compilar el archivo C a un ejecutable.
 ```bash
