@@ -20,13 +20,13 @@ WHITESPACE  [ \t\r]                      // Espacios, tabs, retorno de carro
 NEWLINE     \n                           // Salto de línea
 
 // ================= DEFINICIONES DE TOKENS =================
-KEYWORD     (?i:SELECT|INSERT|WHERE|UPDATE|DELETE|FROM)  // Palabras clave (case-insensitive)
+KEYWORD     (?i:SELECT|INSERT|WHERE|UPDATE|DELETE|FROM)  // Palabras clave (caso-insensible)
 IDENTIFIER  {LETTER}({LETTER}|{DIGIT}|_)*                // Nombres de tablas/columnas
 INTEGER     {DIGIT}+                                      // Números enteros
 DECIMAL     {DIGIT}+\.{DIGIT}+                           // Números decimales
 STRING      ('([^'])*'|\"([^\"])*\")                     // Cadenas con comillas simples o dobles
 RELATIONAL  (=|<|>|<=|>=)                                // Operadores relacionales
-LOGICAL     (?i:AND|OR|NOT)                              // Operadores lógicos (case-insensitive)
+LOGICAL     (?i:AND|OR|NOT)                              // Operadores lógicos  (caso-insensible)
 DELIMITER   [;,()]                                       // Delimitadores
 COMMENT     --.*                                         // Comentarios de línea
 
