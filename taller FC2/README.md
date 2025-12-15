@@ -1,4 +1,4 @@
-<img width="756" height="294" alt="image" src="https://github.com/user-attachments/assets/ca219cd3-92bb-4b84-98ef-4bc831a9a35d" />#  Taller 2 - Fundamentos de la Computación
+#  Taller 2 - Fundamentos de la Computación
 13-11-2025
 
 Matias Soto Carvajal -  Meylin Leonario Marambio – Pablo Bravo Bascuñán
